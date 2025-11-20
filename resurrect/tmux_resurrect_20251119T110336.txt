@@ -1,0 +1,4 @@
+pane	0	1	1	:*	1	bimbok-IdeaPad-3-15IAU7	:/home/bimbok/.config/tmux	0	nvim	:nvim tmux.conf
+pane	0	1	1	:*	2	Yazi: ~/.config	:/home/bimbok/.config	1	yazi	:yazi
+window	0	1	:tmux-config	1	:*	0fd6,172x41,0,0{86x41,0,0,0,85x41,87,0,4}	off
+state	0	

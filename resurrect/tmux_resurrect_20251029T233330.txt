@@ -1,0 +1,7 @@
+pane	0	1	1	:*	1	bimbok-IdeaPad-3-15IAU7	:/home/bimbok/Documents/code/working_on/AlgoScope	1	nvim	:nvim
+pane	0	1	1	:*	2	:/tmp/AlgoScope	0	zsh	17923	:nvim
+pane	0	1	1	:*	3	Gemini - AlgoScope	:/home/bimbok/Documents/code/working_on/AlgoScope	0	node	:node /home/bimbok/.nvm/versions/node/v24.7.0/bin/gemini
+pane	0	2	0	:-	1	:/home/bimbok/.config/tmux	1	yazi	21077	:nvim
+window	0	1	:nvim	1	:*	6d8a,174x43,0,0{87x43,0,0,0,86x43,88,0[86x21,88,0,1,86x21,88,22,4]}	:
+window	0	2	:yazi	0	:-	ba40,174x43,0,0,3	:
+state	0	
