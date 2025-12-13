@@ -1,0 +1,5 @@
+pane	0	1	1	:*	1	:/home/bimbok/Documents/code/random_practice/java-project	:/home/bimbok/Documents/code/random_practice/java-project	1	nvim	:nvim
+pane	0	2	0	:-	1	bimbok-IdeaPad-3-15IAU7	:/home/bimbok/Documents/code/random_practice/java-project	1	nvim	:nvim
+window	0	1	:tmux-config	1	:*	b27e,123x32,0,0,1	off
+window	0	2	:nvim	0	:-	b27f,123x32,0,0,2	:
+state	0	

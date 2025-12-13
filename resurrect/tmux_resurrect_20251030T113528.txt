@@ -1,5 +1,0 @@
-pane	all-task	1	1	:*	1	bimbok-IdeaPad-3-15IAU7	:/home/bimbok/Documents/code/rust/video/exercises	1	nvim	:nvim
-pane	all-task	2	0	:-	1	bimbok-IdeaPad-3-15IAU7	:/home/bimbok/Documents/code/working_on/AlgoScope	1	nvim	:nvim
-window	all-task	1	:rust	1	:*	ba3d,174x43,0,0,0	off
-window	all-task	2	:Algoscope	0	:-	ba3f,174x43,0,0,2	off
-state	all-task	
