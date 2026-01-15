@@ -1,0 +1,8 @@
+pane	0	1	1	:*	1	archlinux	:/home/bimbok/arch/code/database-sql	1	sqlite3	:sqlite3 sample.db
+pane	0	1	1	:*	2	archlinux	:/home/bimbok/.local/share/Trash/files/query	0	nvim	:nvim
+pane	1	1	1	:*	1	archlinux	:/home/bimbok/arch/code/working_on/Ping	1	nvim	:nvim
+pane	1	2	0	:-	1	archlinux	:/home/bimbok/arch/code/working_on/Ping	1	zsh	:
+window	0	1	:sqlite3	1	:*	f094,131x32,0,0{82x32,0,0,7,48x32,83,0,9}	:
+window	1	1	:nvim	1	:*	590f,131x32,0,0,10	:
+window	1	2	:zsh	0	:-	5910,131x32,0,0,11	:
+state	1	

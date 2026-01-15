@@ -1,0 +1,7 @@
+pane	0	1	1	:*	1	archlinux	:/home/bimbok/arch/code/working_on/AlgoScope	1	nvim	:nvim
+pane	0	2	0	:-	1	Gemini - AlgoScope	:/home/bimbok/arch/code/working_on/AlgoScope	1	node	:node /usr/bin/gemini
+pane	0	3	0	:	1	archlinux	:/home/bimbok/arch/code/working_on/AlgoScope	1	npm	:npm run dev
+window	0	1	:nvim	1	:*	b1c2,131x32,0,0,5	:
+window	0	2	:node	0	:-	b1c3,131x32,0,0,6	:
+window	0	3	:npm	0	:	b1c4,131x32,0,0,7	:
+state	0	

@@ -1,0 +1,7 @@
+pane	0	1	1	:*	1	Gemini - music	:/home/bimbok/arch/code/working_on/music	1	node	:node /usr/bin/gemini
+pane	0	2	0	:	1	archlinux	:/home/bimbok/arch/code/working_on/music	1	nvim	:nvim
+pane	0	3	0	:-	1	Yazi: ~/arch/code/working_on/ChatFlow/frontend/public	:/home/bimbok/arch/code/working_on/music	1	zsh	:
+window	0	1	:music-zsh	1	:*	a75e,67x30,0,0,1	off
+window	0	2	:music-nvim	0	:	b1bf,131x32,0,0,2	off
+window	0	3	:extra	0	:-	b1c2,131x32,0,0,5	off
+state	0	

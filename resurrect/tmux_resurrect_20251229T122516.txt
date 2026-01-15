@@ -1,0 +1,5 @@
+pane	0	1	0	:-	1	Yazi: ~/Downloads	:/home/bimbok/arch/code/go/cards	1	nvim	:nvim
+pane	0	2	1	:*	1	archlinux	:/home/bimbok/arch/code/go/cards	1	zsh	:
+window	0	1	:nvim	0	:-	b1c0,131x32,0,0,3	:
+window	0	2	:zsh	1	:*	b1c1,131x32,0,0,4	:
+state	0	

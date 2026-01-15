@@ -1,0 +1,13 @@
+pane	0	1	0	:	1	:/home/bimbok/arch/code/working_on/ChatFlow	1	zsh	8657	:tmux attach
+npm run dev
+node /home/bimbok/arch/code/working_on/ChatFlow/frontend/node_modules/.bin/vite
+/home/bimbok/arch/code/working_on/ChatFlow/frontend/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.11 --ping
+pane	0	2	0	:-	1	archlinux	:/home/bimbok/arch/code/working_on/ChatFlow	1	nvim	:nvim
+pane	0	3	1	:*	1	archlinux	:/home/bimbok/arch/code/working_on/ChatFlow/frontend	1	npm	:npm run dev
+pane	0	3	1	:*	2	archlinux	:/home/bimbok/arch/code/working_on/ChatFlow/backend	0	zsh	:
+pane	0	4	0	:	1	Yazi: ~/arch/code/working_on/ChatFlow/frontend/public	:/home/bimbok/arch/code/working_on/ChatFlow/frontend/public	1	yazi	:yazi --cwd-file=/tmp/yazi-cwd.9NSL5h
+window	0	1	:zsh	0	:	b1be,131x32,0,0,1	:
+window	0	2	:nvim	0	:-	b1c0,131x32,0,0,3	off
+window	0	3	:npm	1	:*	4467,131x32,0,0[131x16,0,0,4,131x15,0,17,5]	:
+window	0	4	:yazi	0	:	b1c3,131x32,0,0,6	:
+state	0	

@@ -1,0 +1,12 @@
+pane	0	1	1	:*	1	archlinux	:/home/bimbok/arch/code/database-sql	0	sqlite3	:sqlite3 sample.db
+pane	0	1	1	:*	2	archlinux	:/home/bimbok/arch/code/database-sql	1	nvim	:nvim q.sql
+pane	0	2	0	:-	1	archlinux	:/home/bimbok	1	zsh	:
+pane	2	1	1	:*	1	archlinux	:/home/bimbok/arch/code/working_on/AlgoScope	1	nvim	:nvim
+pane	2	2	0	:	1	Gemini - AlgoScope	:/home/bimbok/arch/code/working_on/AlgoScope	1	node	:node /usr/bin/gemini
+pane	2	3	0	:-	1	archlinux	:/home/bimbok/arch/code/working_on/AlgoScope	1	npm	:npm run dev
+window	0	1	:nvim	1	:*	e45e,131x32,0,0[131x20,0,0,1,131x11,0,21,2]	:
+window	0	2	:zsh	0	:-	b1c0,131x32,0,0,3	:
+window	2	1	:nvim	1	:*	b1c6,131x32,0,0,9	:
+window	2	2	:node	0	:	590f,131x32,0,0,10	:
+window	2	3	:npm	0	:-	5910,131x32,0,0,11	:
+state	0	
