@@ -1,0 +1,18 @@
+pane	bimagic	1	1	:*	1	archlinux	:/home/bimbok/arch/code/working_on/bimagic	1	nvim	:nvim
+pane	bimagic	2	0	:-	1	◇  Ready (bimagic)                                                              	:/home/bimbok/arch/code/working_on/bimagic	1	node	:node /usr/bin/gemini
+pane	creAIter	1	0	:	1	archlinux	:/home/bimbok/arch/code/working_on/hello-chat/backend_server	1	python	:/home/bimbok/.pyenv/versions/3.12.8/bin/python backend.py
+pane	creAIter	1	0	:	2	archlinux	:/home/bimbok/arch/code/working_on/hello-chat/frontend	0	npm	:npm run dev
+pane	creAIter	1	0	:	3	Yazi: ~/arch/code/working_on/hello-chat/frontend	:/home/bimbok/arch/code/working_on/hello-chat/frontend	0	yazi	:yazi --cwd-file=/tmp/yazi-cwd.mecVEs
+pane	creAIter	2	0	:-	1	◇  Ready (hello-chat)                                                           	:/home/bimbok/arch/code/working_on/hello-chat	1	node	:node /usr/bin/gemini
+pane	creAIter	3	1	:*	1	archlinux	:/home/bimbok/arch/code/working_on/hello-chat	1	nvim	:nvim
+pane	mysql learning	1	1	:*	1	archlinux	:/home/bimbok/arch/code/database-sql	1	mysql	:mysql -u bimbok -p
+pane	mysql learning	1	1	:*	2	archlinux	:/home/bimbok/arch/code/database-sql	0	nvim	:nvim q.sql
+pane	mysql learning	2	0	:-	1	archlinux	:/home/bimbok/arch/code/database-sql	1	nvim	:nvim user-managemant.md
+window	bimagic	1	:nvim	1	:*	d90f,131x32,0,0,20	:
+window	bimagic	2	:[tmux]	0	:-	d910,131x32,0,0,21	:
+window	creAIter	1	:Server	0	:	4e9e,131x32,0,0[131x16,0,0,3,131x15,0,17{65x15,0,17,18,65x15,66,17,19}]	off
+window	creAIter	2	:Gemini	0	:-	b1c2,131x32,0,0,5	off
+window	creAIter	3	:nvim	1	:*	5913,131x32,0,0,14	:
+window	mysql learning	1	:mysql	1	:*	c547,131x32,0,0[131x23,0,0,6,131x8,0,24,7]	:
+window	mysql learning	2	:nvim	0	:-	5912,131x32,0,0,13	:
+state	bimagic	creAIter
