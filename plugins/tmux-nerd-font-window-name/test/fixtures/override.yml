@@ -1,6 +1,0 @@
-config:
-  fallback-icon: "X"
-  show-name: false
-
-icons:
-  nvim: "CUSTOM"
