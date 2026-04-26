@@ -82,8 +82,7 @@ The status line is driven by [`bimbok-theme/theme.tmux`](bimbok-theme/theme.tmux
 
 ### Theme behavior
 
-- Uses colors from `~/.cache/matugen-tmux-colors.sh` when that file exists.
-- Falls back to built-in colors if the Matugen cache is missing.
+- Uses a nice Gruvbox Dark theme with support for "medium" and "hard" variants.
 - Uses a transparent background because `@gruvbox-tmux_transparent` is set to `1`.
 - Uses `arabic` formatting for window IDs.
 - Uses `super` formatting for pane IDs.
@@ -161,7 +160,6 @@ Important bindings:
 - `gh` for GitHub workboard data
 - `glab` for GitLab workboard data
 - `zoxide` for the configured SessionX mode
-- optional: Matugen cache at `~/.cache/matugen-tmux-colors.sh` for dynamic colors
 
 ## Install
 

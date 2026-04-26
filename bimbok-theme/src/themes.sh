@@ -1,35 +1,82 @@
 #!/usr/bin/env bash
 
-SELECTED_THEME="$(tmux show-option -gv @gruvbox-tmux_theme 2>/dev/null || echo "hard")"
+SELECTED_THEME="$(tmux show-option -gv @gruvbox-tmux_theme 2>/dev/null || echo "medium")"
 TRANSPARENT_THEME="$(tmux show-option -gv @gruvbox-tmux_transparent 2>/dev/null || echo 0)"
 
-MATUGEN_CACHE="$HOME/.cache/matugen-tmux-colors.sh"
+# Gruvbox Dark Colors
+case "$SELECTED_THEME" in
+  "hard")
+    BG0="#1d2021"
+    ;;
+  "soft")
+    BG0="#32302f"
+    ;;
+  *)
+    BG0="#282828"
+    ;;
+esac
 
-# 1. Source the dynamically generated colors
-if [[ -f "$MATUGEN_CACHE" ]]; then
-  source "$MATUGEN_CACHE"
-else
-  # Fallback if Matugen hasn't generated the file yet
-  declare -A MATUGEN_COLORS=([background]="#282828" [foreground]="#ebdbb2")
-fi
+BG1="#3c3836"
+BG2="#504945"
+BG3="#665c54"
+BG4="#7c6f64"
+FG0="#fbf1c7"
+FG1="#ebdbb2"
+FG2="#d5c4a1"
+FG3="#bdae93"
+FG4="#a89984"
 
-# 2. Map Matugen colors to the THEME array the plugin expects
+RED="#cc241d"
+GREEN="#98971a"
+YELLOW="#d79921"
+BLUE="#458588"
+PURPLE="#b16286"
+AQUA="#689d6a"
+ORANGE="#d65d0e"
+GRAY="#928374"
+
+RED_BRIGHT="#fb4934"
+GREEN_BRIGHT="#b8bb26"
+YELLOW_BRIGHT="#fabd2f"
+BLUE_BRIGHT="#83a598"
+PURPLE_BRIGHT="#d3869b"
+AQUA_BRIGHT="#8ec07c"
+ORANGE_BRIGHT="#fe8019"
+
 declare -A THEME
-for key in background foreground black blue aqua green purple red white yellow \
-  bblack bblue baqua bgreen bpurple bred bwhite byellow; do
 
-  # Use the Matugen color, fallback to a default pink if mapping fails
-  THEME["$key"]="${MATUGEN_COLORS[$key]:-#ff00ff}"
-done
+THEME["background"]="$BG0"
+THEME["foreground"]="$FG1"
+THEME["black"]="$BG0"
+THEME["blue"]="$BLUE"
+THEME["aqua"]="$AQUA"
+THEME["green"]="$GREEN"
+THEME["purple"]="$PURPLE"
+THEME["magenta"]="$PURPLE" # Added for compatibility
+THEME["red"]="$RED"
+THEME["white"]="$FG4"
+THEME["yellow"]="$YELLOW"
+THEME["bblack"]="$GRAY"
+THEME["bblue"]="$BLUE_BRIGHT"
+THEME["baqua"]="$AQUA_BRIGHT"
+THEME["bgreen"]="$GREEN_BRIGHT"
+THEME["bpurple"]="$PURPLE_BRIGHT"
+THEME["bred"]="$RED_BRIGHT"
+THEME["bwhite"]="$FG1"
+THEME["byellow"]="$YELLOW_BRIGHT"
 
-# 3. Preserve the plugin's transparency and Github widget logic
+# Github status colors
+THEME['ghgreen']="$GREEN_BRIGHT"
+THEME['ghpurple']="$PURPLE_BRIGHT"
+THEME['ghred']="$RED_BRIGHT"
+THEME['ghyellow']="$YELLOW_BRIGHT"
+
 if [[ "${TRANSPARENT_THEME}" == "1" ]]; then
   THEME["background"]="default"
 fi
 
-THEME['ghgreen']="${MATUGEN_COLORS[green]:-#b8bb26}"
-THEME['ghpurple']="${MATUGEN_COLORS[purple]:-#d3869b}"
-THEME['ghred']="${MATUGEN_COLORS[red]:-#fb4934}"
-THEME['ghyellow']="${MATUGEN_COLORS[yellow]:-#fabd2f}"
+# Icons
+terminal_icon=""
+active_terminal_icon=""
 
 RESET="#[fg=${THEME[foreground]},bg=${THEME[background]},nobold,noitalics,nounderscore,nodim]"
